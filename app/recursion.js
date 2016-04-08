@@ -5,8 +5,6 @@ exports.recursionAnswers = {
 
     const allFiles = []
 
-    let gatherFiles = typeof dirName === 'undefined'
-
     function getFiles(dir) {
 
       for (let i = 0; i < dir.files.length; i++) {
