@@ -22,7 +22,7 @@
     "grunt-contrib-watch": "~0.4.4",
     "jquery": "^1.11.0",
     "load-grunt-tasks": "^3.1.0",
-    "mocha": "^2.2.4",
+    "mocha": "^6.0.0",
     "serve-static": "^1.9.2",
     "sinon": "^1.14.1",
     "underscore": "1.8.x"
