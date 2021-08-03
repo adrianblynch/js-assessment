@@ -25,14 +25,18 @@
     "mocha": "^2.2.4",
     "serve-static": "^1.9.2",
     "sinon": "^1.14.1",
-    "underscore": "1.8.x"
+    "underscore": "1.8.x",
+    "@snyk/protect": "latest"
   },
   "scripts": {
     "start": "node index.js",
-    "test": "mocha -R spec 'tests/app'"
+    "test": "mocha -R spec 'tests/app'",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "bugs": {
     "url": "https://github.com/rmurphey/js-assessment/issues"
   },
-  "private": true
+  "private": true,
+  "snyk": true
 }
